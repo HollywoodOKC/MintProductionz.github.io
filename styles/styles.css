@@ -105,6 +105,7 @@ body {
   margin-right: auto;
   width: 60%;
   height: auto;
+  box-shadow: 5px 5px 5px black;
 }
 
 .row {
