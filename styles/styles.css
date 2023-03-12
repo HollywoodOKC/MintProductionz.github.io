@@ -68,10 +68,15 @@ body {
   padding: 10px;
 }
 
-.div_name, .description {
+.div_name,
+.description {
   display: block;
   text-align: center;
   font-family: 'Kalam', cursive;
+}
+
+.div_name {
+  font-size: 35px;
 }
 
 .row {
