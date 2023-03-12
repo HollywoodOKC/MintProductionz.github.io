@@ -45,7 +45,7 @@ body {
 .child {
   padding: 0.5rem 0.75rem;
   color: white;
-  font-size: 20px;
+  font-size: 1.5vw;
 }
 
 hr {
@@ -132,4 +132,5 @@ hr {
 #footer {
   text-align: center;
   color: black;
+  font-size: 1.17vw;
 }
