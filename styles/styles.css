@@ -33,6 +33,7 @@ body {
   max-height: 100%;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
+  overflow: hidden;
 }
 
 #inner {
