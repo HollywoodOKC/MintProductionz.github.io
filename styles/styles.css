@@ -30,8 +30,9 @@ body {
   display: block;
   text-align: center;
   color: white;
-  font-size: 90px;
+  font-size: 7vw;
   height: auto;
+  width: auto;
 }
 
 #services {
