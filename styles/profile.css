@@ -53,7 +53,7 @@
 }
 
 .card-container .round {
-	border: 1px solid hsl(183.6, 97.1%, 40.4%);
+	border: 1px solid hsl(137.4, 36.9%, 63.3%);
 	border-radius: 50%;
 	padding: 7px;
 }
@@ -96,7 +96,7 @@ button.primary:hover {
 }
 
 .skills ul li {
-	border: 1px solid #2D2747;
+	border: 1px solid hsl(251.3, 29.1%, 21.6%);
 	border-radius: 2px;
 	display: inline-block;
 	font-size: 12px;
