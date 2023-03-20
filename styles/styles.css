@@ -206,4 +206,5 @@ fa:hover {
   border: 3px solid hsl(137.4, 36.9%, 63.3%);
   border-radius: 7px;
   background-color: hsl(140, 38%, 86.1%);
+  margin-bottom: 0;
 }
