@@ -2,6 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+
+@font-face {
+  font-family: 'Digital-7';
+  src: url("https://hollywoodokc.github.io/portfolio-site/resources/fonts/digital-7.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
 
 body {
   margin: 0;
@@ -160,44 +168,42 @@ fa:hover {
 }
 
 .fa-facebook {
-  background: #3B5998;
-  color: white;
+  background: hsl(220.6, 44.1%, 41.4%);
+  color: hsl(0, 0%, 100%);
 }
 
 .fa-instagram {
-  background: #125688;
-  color: white;
+  background: hsl(205.4, 76.6%, 30.2%);
+  color: hsl(0, 0%, 100%);
 }
 
 .fa-snapchat-ghost {
-  background: #fffc00;
-  color: white;
+  background: hsl(59.3, 100%, 50%);
+  color: hsl(0, 0%, 100%);
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .fa-youtube {
-  background: #bb0000;
-  color: white;
+  background: hsl(0, 100%, 36.7%);
+  color: hsl(0, 0%, 100%);
 }
 
 .fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
-
-.row {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: hsl(140, 38%, 86.1%);
-  border-radius: 7px;
-  width: 75%;
-  padding: 10px;
-  font-family: 'Lobster', cursive;
+  background: hsl(205.9, 81.8%, 63.3%);
+  color: hsl(0, 0%, 100%);
 }
 
 #footer {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
   text-align: center;
-  color: black;
-  font-size: 12px;
+  width: 75%;
+  padding: 5px;
+  color: hsl(0, 0%, 0%);
+  font-size: 1.32vw;
+  font-family: 'Lobster', cursive;
+  border: 3px solid hsl(137.4, 36.9%, 63.3%);
+  border-radius: 7px;
+  background-color: hsl(140, 38%, 86.1%);
 }
