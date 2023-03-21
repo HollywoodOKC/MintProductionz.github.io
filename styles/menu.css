@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+span {
+  color: white;
+  font-family: 'Righteous', cursive;
+}
+
 .overlay {
   display: block;
   height: 100%;
@@ -27,6 +34,7 @@
   color: #818181;
   display: block;
   transition: 0.3s;
+  font-family: 'Righteous', cursive;
 }
 
 .overlay a:hover,
