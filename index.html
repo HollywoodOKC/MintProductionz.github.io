@@ -8,6 +8,7 @@
   <link rel="icon" type="image/x-icon" href="imgs/leaf-16.ico">
   <link href="styles/styles.css" type="text/css" rel="stylesheet">
   <link href="styles/profile.css" type="text/css" rel="stylesheet">
+  <link href="styles/menu.css" type="text/css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <meta property="og:title" content='Mint Productionz'>
   <meta property="og:image" content="https://hollywoodokc.github.io/MintProductionz.github.io/imgs/mint_leaf.jpeg">
@@ -19,18 +20,30 @@
 </head>
 
 <body>
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Clients</a>
+      <a href="#">Contact</a>
+    </div>
+  </div>
+  <!--<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>-->
   <header>
     <div id="main">
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
       <div id="inner">
         <img id="top_pic" src="imgs/mint_leaf.jpeg" alt="Mint Leaf">
         <p id="mint">Mint Productionz</p>
       </div>
       <ul id="services">
-        <button class="child">Content</button>
-        <button class="child">Video Editing</button>
-        <button class="child">Custom Graphics</button>
-        <button class="child">Logo Design</button>
+        <li class="child">Content</li>
+        <li class="child">Video Editing</li>
+        <li class="child">Custom Graphics</li>
+        <li class="child">Logo Design</li>
       </ul>
+      <hr>
     </div>
   </header>
 
@@ -94,11 +107,11 @@
       <img class="round" src="imgs/mint.jpeg" alt="mint leaf" />
       <h3 id="name">Mr. Porter</h3>
       <h6 id="state">Oklahoma</h6>
-      <p id="jobs">Graphic Designer <br/> Photographer</p>
+      <p id="jobs">Graphic Designer <br /> Photographer</p>
       <div class="buttons">
         <a href="mailto:mintproductionz2@gmail.com? subject=Possible Job"> <button class="primary">
-          Message
-        </button></a>
+            Message
+          </button></a>
         <button class="primary ghost">
           Following
         </button>
@@ -119,7 +132,8 @@
     <div id="social">
       <a href="https://www.facebook.com/Mintproductionz2" class="fa fa-facebook"></a>
       <a href="https://www.instagram.com/mint_productionz/" class="fa fa-instagram"></a>
-      <a href="https://www.snapchat.com/add/mintproductionz?share_id=OTk1NDhC&locale=en_US" class="fa fa-snapchat-ghost"></a>
+      <a href="https://www.snapchat.com/add/mintproductionz?share_id=OTk1NDhC&locale=en_US"
+        class="fa fa-snapchat-ghost"></a>
       <a href="https://www.youtube.com/channel/UCVMpvedby_BC8n513Q4U80Q" class="fa fa-youtube"></a>
       <a href="https://twitter.com/Owl_Mintz" class="fa fa-twitter"></a>
     </div>
@@ -131,7 +145,7 @@
       </p>
     </div>
   </footer>
-  <script src="" type="text/javascript"></script>
+  <script src="scripts/main.js" type="text/javascript"></script>
 </body>
 
 </html>

@@ -61,22 +61,22 @@ body {
   justify-content: center;
   list-style: none;
   padding: 4px;
+  font-family: 'Kalam', cursive;
 }
 
 .child {
   padding: 0.5rem 0.75rem;
-  color: black;
-  font-size: 1.56vw;
-  background-color: hsl(61, 88%, 58%);
-  font-family: 'Kalam', cursive;
-  text-decoration: none;
-  border: none;
-  margin-left: 5px;
+  color: white;
+  font-size: 25px;
 }
 
-.child:hover {
-  color: white;
-  background-color: hsl(137.4, 36.9%, 63.3%);
+hr {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  border: 2px solid white;
+  border-radius: 7px;
 }
 
 #div_1 {
@@ -206,5 +206,4 @@ fa:hover {
   border: 3px solid hsl(137.4, 36.9%, 63.3%);
   border-radius: 7px;
   background-color: hsl(140, 38%, 86.1%);
-  margin-bottom: 0;
 }
