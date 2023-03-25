@@ -78,7 +78,7 @@ hr {
   border: 2px solid white;
   border-radius: 7px;
 }
-/*^Here up is top of page^*/
+/*⬆️Here up is top of page⬆️*/
 
 #div_1 {
   display: flex;
@@ -146,7 +146,7 @@ hr {
   transition: transform 1s ease;
 }
 
-/*Here down is down of page*/
+/*⬇️Here down is bottom of page⬇️*/
 
 #footer {
   display: block;
