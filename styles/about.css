@@ -81,32 +81,25 @@ hr {
 
 /*^From here and up, top of page.^*/
 
-/*.main {
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: column;
-}*/
-
 .paragraph_box {
   display: block;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  width: 75%;
+  width: 100%;
   height: auto;
   box-shadow: 5px 10px 10px #888888;
   background-color: hsl(137.4, 36.9%, 63.3%);
-  border-radius: 7px;
 }
 
 .paragraph {
   font-family: 'Kalam', cursive;
   color: white;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 #div1 {
-  margin-top: 10px;
+  margin-top: 5px;
   margin-bottom: 10px;
 }
 
