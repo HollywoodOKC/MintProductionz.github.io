@@ -2,43 +2,44 @@
 
 #name {
 	margin: 10px 0;
-    font-size: 1.5rem;
-    color:hsl(0, 72%, 28%);
+	font-size: 1.5rem;
+	color: hsl(0, 72%, 28%);
 }
 
-#state, #h6 {
+#state,
+#h6 {
 	margin: 5px 0;
-    font-size: 1.0rem;
+	font-size: 1.0rem;
 	text-transform: uppercase;
-    color: hsl(0, 72%, 28%);
+	color: hsl(0, 72%, 28%);
 }
 
 #jobs {
 	font-size: 0.8rem;
 	line-height: 21px;
-    color: hsl(0, 72%, 28%);
+	color: hsl(0, 72%, 28%);
 }
 
 .space {
-    height: 100px
+	height: 100px
 }
 
 .card-container {
-    display: block;
+	display: block;
 	margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
+	margin-left: auto;
+	margin-right: auto;
 	background-color: hsl(140, 38%, 86.1%);
 	border-radius: 5px;
 	box-shadow: 0px 10px 20px -10px hsla(0, 0%, 0%, 0.8);
 	color: hsl(228.5, 20.6%, 75.3%);
 	padding-top: 40px;
-    padding-bottom: 30px;
+	padding-bottom: 30px;
 	position: relative;
 	width: 350px;
 	max-width: 100%;
 	text-align: center;
-    font-family: 'Lobster', cursive;
+	font-family: 'Lobster', cursive;
 }
 
 .card-container .pro {
@@ -75,11 +76,11 @@ button.primary.ghost {
 }
 
 button.primary {
-    background-color: hsl(137.4, 36.9%, 63.3%);
+	background-color: hsl(137.4, 36.9%, 63.3%);
 }
 
 button.primary:hover {
-    background-color: hsl(137, 48%, 55%);
+	background-color: hsl(137, 48%, 55%);
 }
 
 .skills {
@@ -87,7 +88,7 @@ button.primary:hover {
 	text-align: left;
 	padding: 15px;
 	margin-top: 30px;
-    color: hsl(0, 72%, 28%);
+	color: hsl(0, 72%, 28%);
 }
 
 .skills ul {
@@ -106,9 +107,9 @@ button.primary:hover {
 }
 
 .round {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-    width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	width: 50%;
 }
