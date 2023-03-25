@@ -67,7 +67,7 @@ body {
 .child {
   padding: 0.5rem 0.75rem;
   color: white;
-  font-size: 25px;
+  font-size: 1.5rem;
 }
 
 hr {
@@ -97,7 +97,7 @@ hr {
 .paragraph {
   font-family: 'Kalam', cursive;
   color: white;
-  font-size: 30px;
+  font-size: 1.8rem;
 }
 
 #div1 {
