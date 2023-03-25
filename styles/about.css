@@ -78,13 +78,14 @@ hr {
   border: 2px solid white;
   border-radius: 7px;
 }
+
 /*^From here and up, top of page.^*/
 
-.main {
+/*.main {
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
-}
+}*/
 
 .paragraph_box {
   display: block;
@@ -111,6 +112,15 @@ hr {
 
 #div2 {
   margin-top: 10px;
+}
+
+#video_div {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
+  border-radius: 7px;
 }
 
 /*From here down is bottom of page*/
