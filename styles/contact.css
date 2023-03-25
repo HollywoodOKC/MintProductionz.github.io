@@ -78,75 +78,52 @@ hr {
   border: 2px solid white;
   border-radius: 7px;
 }
-/*^Here up is top of page^*/
 
-#div_1 {
-  display: flex;
-  justify-content: space-evenly;
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
+/*^From here and up, top of page.^*/
 
-.center_div {
-  padding: 10px;
-  width: 25%;
-}
 
-.div_pic {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 45%;
+
+/*From here down is bottom of page*/
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 200px;
   height: auto;
-  border: 10px solid hsl(137.4, 36.9%, 63.3%);
-  border-radius: 50%;
-  padding: 10px;
-}
-
-.div_name,
-.description {
-  display: block;
   text-align: center;
-  font-family: 'Kalam', cursive;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 7px;
 }
 
-.div_name {
-  font-size: 2.1rem;
+fa:hover {
+  opacity: .7;
 }
 
-
-.div_2 {
-  display: flex;
-  justify-content: space-evenly;
-  background-color: hsl(137.4, 36.9%, 63.3%);
-  padding-top: 40px;
-  padding-bottom: 40px;
+.fa-facebook {
+  background: hsl(220.6, 44.1%, 41.4%);
+  color: hsl(0, 0%, 100%);
 }
 
-.gallery {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: auto;
-  padding: 10px;
-  width: 50%;
+.fa-instagram {
+  background: hsl(205.4, 76.6%, 30.2%);
+  color: hsl(0, 0%, 100%);
 }
 
-.picture {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
-  height: auto;
-  box-shadow: 5px 5px 5px black;
+.fa-snapchat-ghost {
+  background: hsl(59.3, 100%, 50%);
+  color: hsl(0, 0%, 100%);
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-.picture:hover {
-  transform: scale(2);
-  transition: transform 1s ease;
+.fa-youtube {
+  background: hsl(0, 100%, 36.7%);
+  color: hsl(0, 0%, 100%);
 }
 
-/*Here down is down of page*/
+.fa-twitter {
+  background: hsl(205.9, 81.8%, 63.3%);
+  color: hsl(0, 0%, 100%);
+}
 
 #footer {
   display: block;
