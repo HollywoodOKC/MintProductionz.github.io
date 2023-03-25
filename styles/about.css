@@ -78,68 +78,42 @@ hr {
   border: 2px solid white;
   border-radius: 7px;
 }
+/*^From here and up, top of page.^*/
 
-#div_1 {
+.main {
   display: flex;
   justify-content: space-evenly;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  flex-direction: column;
 }
 
-.center_div {
-  padding: 10px;
-  width: 25%;
-}
-
-.div_pic {
+.paragraph_box {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 45%;
-  height: auto;
-  border: 10px solid hsl(137.4, 36.9%, 63.3%);
-  border-radius: 50%;
-  padding: 10px;
-}
-
-.div_name,
-.description {
-  display: block;
   text-align: center;
-  font-family: 'Kalam', cursive;
-}
-
-.div_name {
-  font-size: 35px;
-}
-
-
-.div_2 {
-  display: flex;
-  justify-content: space-evenly;
+  width: 75%;
+  height: auto;
+  box-shadow: 5px 10px 10px #888888;
   background-color: hsl(137.4, 36.9%, 63.3%);
-  padding-top: 40px;
-  padding-bottom: 40px;
+  border-radius: 7px;
 }
 
-.gallery {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: auto;
-  padding: 10px;
-  width: 50%;
+.paragraph {
+  font-family: 'Kalam', cursive;
+  color: white;
+  font-size: 25px;
 }
 
-.picture {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
-  height: auto;
-  box-shadow: 5px 5px 5px black;
+#div1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
+#div2 {
+  margin-top: 10px;
+}
+
+/*From here down is bottom of page*/
 .fa {
   padding: 20px;
   font-size: 30px;

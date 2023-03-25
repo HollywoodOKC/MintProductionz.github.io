@@ -140,6 +140,11 @@ hr {
   box-shadow: 5px 5px 5px black;
 }
 
+.picture:hover {
+  transform: scale(2);
+  transition: transform 1s ease;
+}
+
 #contact {
   display: block;
   text-align: center;
