@@ -2,19 +2,19 @@
 
 #name {
 	margin: 10px 0;
-    font-size: 25px;
+    font-size: 1.5rem;
     color:hsl(0, 72%, 28%);
 }
 
 #state, #h6 {
 	margin: 5px 0;
-    font-size: 17px;
+    font-size: 1.0rem;
 	text-transform: uppercase;
     color: hsl(0, 72%, 28%);
 }
 
 #jobs {
-	font-size: 14px;
+	font-size: 0.8rem;
 	line-height: 21px;
     color: hsl(0, 72%, 28%);
 }
@@ -99,7 +99,7 @@ button.primary:hover {
 	border: 1px solid hsl(251.3, 29.1%, 21.6%);
 	border-radius: 2px;
 	display: inline-block;
-	font-size: 12px;
+	font-size: 0.75rem;
 	margin: 0 7px 7px 0;
 	padding: 7px;
 }
