@@ -133,46 +133,6 @@ hr {
 }
 
 /*⬇️From here down is bottom of page⬇️*/
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 200px;
-  height: auto;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 7px;
-}
-
-fa:hover {
-  opacity: .7;
-}
-
-.fa-facebook {
-  background: hsl(220.6, 44.1%, 41.4%);
-  color: hsl(0, 0%, 100%);
-}
-
-.fa-instagram {
-  background: hsl(205.4, 76.6%, 30.2%);
-  color: hsl(0, 0%, 100%);
-}
-
-.fa-snapchat-ghost {
-  background: hsl(59.3, 100%, 50%);
-  color: hsl(0, 0%, 100%);
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-
-.fa-youtube {
-  background: hsl(0, 100%, 36.7%);
-  color: hsl(0, 0%, 100%);
-}
-
-.fa-twitter {
-  background: hsl(205.9, 81.8%, 63.3%);
-  color: hsl(0, 0%, 100%);
-}
 
 #footer {
   display: block;
