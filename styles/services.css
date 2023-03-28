@@ -81,7 +81,64 @@ hr {
 
 /*⬆️From here and up, top of page.⬆️*/
 
+.main_div {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
 
+.service {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: auto;
+    border: solid 5px hsl(137.4, 36.9%, 63.3%);
+    border-radius: 7px;
+}
+
+.task {
+    display: block;
+    text-align: center;
+    font-family: 'Kalam', cursive;
+    font-size: 1.5rem;
+    background-color: hsl(140, 38%, 86.1%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+.icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+}
+
+.statement {
+    display: block;
+    text-align: center;
+    font-family: 'Kalam', cursive;
+    font-size: 1.06rem;
+}
+
+.button {
+    background-color: hsl(137.4, 36.9%, 63.3%);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 7px;
+    width: 15%;
+}
 
 /*⬇️From here down is bottom of page⬇️*/
 
