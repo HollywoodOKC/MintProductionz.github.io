@@ -156,7 +156,7 @@ hr {
     background-color: hsl(140, 38%, 86.1%);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   #social_div {
     display: flex;
     flex-direction: column;
