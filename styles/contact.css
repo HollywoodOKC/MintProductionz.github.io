@@ -155,3 +155,11 @@ hr {
     border-radius: 7px;
     background-color: hsl(140, 38%, 86.1%);
 }
+
+@media screen and (max-height: 450px) {
+  #social-div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
