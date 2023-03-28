@@ -91,7 +91,7 @@ hr {
     flex-direction: row;
 }
 
-.fa {
+.fa-brands {
     padding: 20px;
     font-size: 30px;
     width: 50px;
@@ -100,7 +100,7 @@ hr {
     margin: 5px 2px;
   }
 
-  .fa:hover {
+  .fa-brands:hover {
     opacity: 0.7;
   }
 
@@ -126,7 +126,12 @@ hr {
   }
 
   .fa-youtube {
-    background: #bb0000;
+    background: hsl(0, 100%, 36.7%);
+    color: white;
+  }
+
+  .fa-tiktok {
+    background: #00f2ea;
     color: white;
   }
   
