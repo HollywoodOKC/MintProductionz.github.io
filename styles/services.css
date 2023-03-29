@@ -126,6 +126,7 @@ hr {
 
 .button {
     background-color: hsl(137.4, 36.9%, 63.3%);
+    position: relative;
     border: none;
     color: white;
     padding: 5px 15px;
