@@ -81,6 +81,13 @@ hr {
 
 /*⬆️From here and up, top of page.⬆️*/
 
+#statement {
+    display: block;
+    text-align: center;
+    font-family: 'Kalam', cursive;
+    font-size: 1.5rem;
+    width: auto;
+}
 
 
 /*⬇️From here down is bottom of page⬇️*/
